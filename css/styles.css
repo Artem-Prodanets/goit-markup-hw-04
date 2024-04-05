@@ -317,6 +317,18 @@ background-size: cover;
     text-align: center;
 }
 
+/* .team-card::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    content: "";
+    margin-top: 8px;
+    margin-left: 16px;
+} */
 
 
 /* ====================== PORTFOLIO ================== */
@@ -350,6 +362,34 @@ background-size: cover;
 
 .portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
+        /* position: relative;
+        overflow: hidden; */
+}
+
+.overlay-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background: #4d5ae5;
+    padding: 40px 32px 40px 32px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.overlay-pic:hover .overlay {
+    transform: translatey(0);
 }
 
 .portfolio-list-title {
@@ -367,6 +407,14 @@ background-size: cover;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* .overlay-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        background: #4d5ae5;
+    } */
 
 
 
