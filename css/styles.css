@@ -340,7 +340,7 @@ background-size: cover;
     margin-bottom: 8px;
 }
 
-.social {
+.social-icon-list {
     display: flex;
         align-items: center;
             justify-content: center;
@@ -359,8 +359,17 @@ background-size: cover;
     border-radius: 50%;
     background-color: #4D5AE5;
     content: "";
-
 }
+
+.social-list-item:hover {
+    background-color: #404BBF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+    fill: #F4F4FD;
+}
+
 
 
 /* ====================== PORTFOLIO ================== */
@@ -481,3 +490,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     color: #f4f4fd;
     max-width: 264px;
 }
+
+/* .footer-social-list {
+    display: flex;
+} */
