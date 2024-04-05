@@ -309,7 +309,7 @@ background-size: cover;
 }
 
 .team-card {
-    padding: 32px 0;
+    padding: 32px 0 0 0;
 }
 
 .team-list-item {
@@ -337,9 +337,20 @@ background-size: cover;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
-/* .team-card::after {
+.social {
+    display: flex;
+        align-items: center;
+            justify-content: center;
+            gap: 24px;
+            padding-bottom: 32px;
+        /* margin-top: 8px; */
+            /* margin-bottom: 32px; */
+}
+
+.social-list-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,9 +359,8 @@ background-size: cover;
     border-radius: 50%;
     background-color: #4D5AE5;
     content: "";
-    margin-top: 8px;
-    margin-left: 16px;
-} */
+
+}
 
 
 /* ====================== PORTFOLIO ================== */
