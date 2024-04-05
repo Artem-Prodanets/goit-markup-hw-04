@@ -376,11 +376,11 @@ background-size: cover;
     border-top: none;
 }
 
-.portfolio-card:hover{
+/* .portfolio-card:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
 .portfolio-title {
     font-weight: 700;
@@ -402,6 +402,12 @@ background-size: cover;
     width: calc((100% - 2 * 24px) / 3);
         /* position: relative;
         overflow: hidden; */
+}
+
+.portfolio-item:hover {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .overlay-pic {
