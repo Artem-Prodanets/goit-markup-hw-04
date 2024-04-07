@@ -446,13 +446,13 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 
 .overlay {
-    font-size: 16px;
+    /* font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #4d5ae5;
     padding: 40px 32px 40px 32px;
-    text-transform: none;
+    text-transform: none; */
 
     position: absolute;
     top: 0;
@@ -483,13 +483,17 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     color: #434455;
 }
 
-/* .overlay-text {
+.overlay-text {
         font-size: 16px;
-        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         background: #4d5ae5;
-    } */
+        padding: 40px 32px 40px 32px;
+        text-transform: none;
+        line-height: 1.5;
+        height: 100%;
+        width: 100%;
+    }
 
 
 
