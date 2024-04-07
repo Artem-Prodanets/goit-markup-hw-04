@@ -550,7 +550,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.social-link {
+.footer-social-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -559,9 +559,16 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     border-radius: 50%;
     background-color: #4D5AE5;
     content: "";
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/* ЭТА ЕБАНАЯ ХУЕТА НУЖНА ЗДЕСЬ ИЛИ НЕТ??? */
 }
 
-.social-link:hover {
+.footer-social-link:hover {
+    background-color: #31D0AA;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:focus {
     background-color: #31D0AA;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
